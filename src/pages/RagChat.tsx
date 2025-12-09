@@ -90,7 +90,7 @@ export default function RagChat() {
     import.meta.env.VITE_N8N_WEBHOOK_URL || "https://ssvautomate.app.n8n.cloud/webhook/03c4b591-d635-40ec-82b6-ffa42edda35f"
   );
   const [webhookMap, setWebhookMap] = useState<Record<string, string>>(() => ({
-    sap: import.meta.env.VITE_N8N_WEBHOOK_SAP || 'https://nosta.app.n8n.cloud/webhook/97d71ce6-384d-455d-9dbe-48e755fc6799',
+    sap: import.meta.env.VITE_N8N_WEBHOOK_SAP || 'https://n8n.digitalbiz.tech/webhook/03c4b591-d635-40ec-82b6-ffa42edda35f',
     legal: import.meta.env.VITE_N8N_WEBHOOK_LEGAL || 'https://nosta.app.n8n.cloud/webhook/8b72a299-6557-4d8c-a365-09e105d76393',
     nosta: import.meta.env.VITE_N8N_WEBHOOK_NOSTA || 'https://nosta.app.n8n.cloud/webhook/2bb88761-54cb-49b5-9c92-f15c14cc36b6',
     cost: import.meta.env.VITE_N8N_WEBHOOK_COST || 'https://nosta.app.n8n.cloud/webhook/b4c843be-698d-40c6-8e31-9370f5e165e0',
