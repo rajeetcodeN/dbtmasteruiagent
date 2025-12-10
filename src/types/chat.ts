@@ -24,7 +24,7 @@ export const AGENTS: Agent[] = [
   {
     id: 'sap',
     name: 'SAP Agent',
-    webhookUrl: 'https://nosta.app.n8n.cloud/webhook/97d71ce6-384d-455d-9dbe-48e755fc6799',
+    webhookUrl: 'https://n8n.digitalbiz.tech/webhook/03c4b591-d635-40ec-82b6-ffa42edda35f',
     icon: '🔷',
     password: 'sap123' // Example password
   },
@@ -38,7 +38,7 @@ export const AGENTS: Agent[] = [
   {
     id: 'website',
     name: 'Website',
-    webhookUrl: 'https://nosta.app.n8n.cloud/webhook/2bb88761-54cb-49b5-9c92-f15c14cc36b6',
+    webhookUrl: 'https://n8n.digitalbiz.tech/webhook/488406a9-e2ec-406b-9616-bd648f801d7a',
     icon: '🌐',
     password: 'web123' // Example password
   },
@@ -50,3 +50,4 @@ export const AGENTS: Agent[] = [
     password: 'cost123' // Example password
   },
 ];
+
