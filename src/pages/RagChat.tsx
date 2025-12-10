@@ -92,7 +92,7 @@ export default function RagChat() {
   const [webhookMap, setWebhookMap] = useState<Record<string, string>>(() => ({
     sap: import.meta.env.VITE_N8N_WEBHOOK_SAP || 'https://n8n.digitalbiz.tech/webhook/03c4b591-d635-40ec-82b6-ffa42edda35f',
     legal: import.meta.env.VITE_N8N_WEBHOOK_LEGAL || 'https://nosta.app.n8n.cloud/webhook/8b72a299-6557-4d8c-a365-09e105d76393',
-    nosta: import.meta.env.VITE_N8N_WEBHOOK_NOSTA || 'https://nosta.app.n8n.cloud/webhook/2bb88761-54cb-49b5-9c92-f15c14cc36b6',
+    nosta: import.meta.env.VITE_N8N_WEBHOOK_NOSTA || 'https://n8n.digitalbiz.tech/webhook/488406a9-e2ec-406b-9616-bd648f801d7a',
     cost: import.meta.env.VITE_N8N_WEBHOOK_COST || 'https://nosta.app.n8n.cloud/webhook/b4c843be-698d-40c6-8e31-9370f5e165e0',
   }));
 
