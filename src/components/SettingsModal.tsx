@@ -22,7 +22,7 @@ export function SettingsModal({ webhookMap, onWebhookMapChange }: SettingsModalP
   const [tempMap, setTempMap] = useState<Record<string, string>>(() => ({
     sap: webhookMap?.sap || import.meta.env.VITE_N8N_WEBHOOK_SAP || '',
     legal: webhookMap?.legal || import.meta.env.VITE_N8N_WEBHOOK_LEGAL || '',
-    nosta: webhookMap?.nosta || import.meta.env.VITE_N8N_WEBHOOK_NOSTA || 'https://nosta.app.n8n.cloud/webhook/2bb88761-54cb-49b5-9c92-f15c14cc36b6',
+    nosta: webhookMap?.nosta || import.meta.env.VITE_N8N_WEBHOOK_NOSTA || 'https://n8n.digitalbiz.tech/webhook/488406a9-e2ec-406b-9616-bd648f801d7a',
     cost: webhookMap?.cost || import.meta.env.VITE_N8N_WEBHOOK_COST || '',
   }));
   const [isOpen, setIsOpen] = useState(false);
